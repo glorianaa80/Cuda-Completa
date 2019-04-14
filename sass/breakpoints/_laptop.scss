@@ -1,0 +1,52 @@
+@media (max-width: $breakpoint-lg){
+     // HEADER
+     #header{
+        .cabeza{
+            padding-top: 10%;
+        }
+        h1{
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+    }
+    // Header fijo
+    #headerFijo{
+
+        #menu{
+            width: 6%;
+            height: 60px;
+            display: block;
+        }
+        .menu0{
+            display: none;
+        }
+    }
+
+    // Centro
+    #centro{
+        .cajas{
+            width: 18% ;  
+            display: inline-block;
+            margin-left: 5%;
+        }
+    }
+    //Formulario
+    #formulario{
+        .btn3{
+            width: 20%;
+        }
+        #form{
+            max-width: 90%;
+            margin: 0 auto;
+        }
+    }
+    // Footer
+    #footer{
+        .menu2 {
+            margin-left:10%;  
+        } 
+        .menu2 a{
+            font-size:(20px / $fzparem + rem); 
+        } 
+    }
+} 

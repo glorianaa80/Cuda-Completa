@@ -1,0 +1,96 @@
+#header{
+    background-color:$header;
+    padding-top:10%; 
+}
+
+#menu{
+    width: 4%;
+    margin-left: 90%;
+    display: none;
+}
+
+#headerFijo{
+    position: fixed;
+    display: block;
+    width: 100%;
+    background-color: $header;
+    padding-top: 0;
+    padding-bottom: 1%;
+    margin: 0;
+}
+
+// Logo
+.logo{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 45%;
+}
+// Fin el logo
+
+// Lista Menu
+.menu0{
+    display: inline;
+}
+
+.menu{
+    padding: $cero;
+    margin: $cero; 
+    text-transform: $mayuscula;
+    list-style: none;
+    display: inline;
+}
+
+.menu li{
+    display: inline;
+
+}
+
+.menu li + li{
+    margin-left: 2%;
+}
+
+.menu a{
+    color:$blanco;
+    font-size:(15px / $fzparem + rem);
+
+}
+//  Final de lista menu
+
+// Hover del menu
+.boton{
+    text-align: center;
+}
+.btn1{
+    padding-left:2%;
+    padding-right:2%;
+    width: 15%;
+    border-radius: 5px;
+    background-color: $btn1;
+    border: 1px solid $btn1;
+    text-transform: $mayuscula;
+}
+//Final del hover del menu
+
+// Titulo principal
+h1{
+    text-align: $alineacion;
+}
+// Final titulo principal
+
+// Boton
+.btn2{
+    font-size:(17px / $fzparem + rem);
+    background-color: $btn2;
+    text-transform: $mayuscula;
+    color: $blanco;
+    border-bottom: 3px solid $sbtn2;
+    border-left: $cero ;
+    border-right: $cero ;
+    border-top: $cero ;
+    border-radius: 3px ;
+    text-align: $alineacion;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    padding: 1%;
+}
+// Final del boton

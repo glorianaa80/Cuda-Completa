@@ -1,0 +1,38 @@
+@media (max-width: $breakpoint-sm){
+    // HEADER
+    #header{
+        .cabeza{
+            padding-top: 17%;
+        }
+    }
+
+   
+
+    // Centro
+    #centro{
+        .cajas{
+            width: 45% ;  
+            display: inline-block;
+            margin-left:25% ;
+        }
+    }
+    //Formulario
+    #formulario{
+        .btn3{
+            width: 25%;
+        }
+        #form{
+            max-width: 90%;
+            margin: 0 auto;
+        }
+    }
+    // Footer
+    #footer{
+        .menu2 {
+            margin-left:2%;  
+        } 
+        .menu2 a{
+            font-size:(11px / $fzparem + rem); 
+        } 
+    }
+}
